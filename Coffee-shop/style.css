@@ -1,0 +1,109 @@
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+/*so.....apperently after 2 days of playing with the bloody coffee beans photo and stretching it and complaining about the definition
+I realized that the right and left sides of the photo are just dark rectangles right???*/
+#left-photo-side {
+	height: 280px;
+	width: 128px;
+	float: left;
+	background-color: #0c0b09;
+}
+#right-photo-side {
+	height: 280px;
+	width: 128px;
+	float: right;
+	background-color: #0c0b09;
+}
+header .container {
+	height: 280px;
+	width: 1024px;
+    background-image: url(beans.jpg);
+    background-size: 100%;
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.image {
+
+	float: center;
+	margin: auto;
+	position: center;
+	
+
+
+}
+nav {
+	background-color: #230B03;
+	text-align: center;
+	height: 35px;
+	position: relative;
+	margin-top: 30px;
+	/*clear: both;*/
+
+}
+
+
+ul {
+	display; inline-block;
+
+}
+.left {
+	float: left;
+	width: 35%;
+	text-align: center;
+	margin-left: 12%;
+}
+.right {
+	float: right;
+	width: 35%;
+	text-align: center;
+	margin-right: 12%;
+}
+ul{
+	margin-top: 10px;
+}
+ul li{
+	display: inline;
+}
+a {
+	
+	color: #cebb99;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 55px 10px 0 0;
+}
+a:first-child {
+	padding: 55 0 0 0;
+}
+h3 {
+
+	font-family: Helvetica;
+	font-style: bold;
+	font-size: 20pt;
+
+}
+section p {
+	font-size: 13pt;
+	font-family: 'Libre Baskerville', serif;
+}
+footer {
+	background-color: #230b03;
+	height: 100px;
+	clear: both;
+	margin-top: 100px;
+
+}
+footer p {
+	color: #cebb99;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 50px;
+}
